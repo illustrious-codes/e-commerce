@@ -1,0 +1,266 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #dff5ff;
+}
+
+nav {
+  height: 10vh;
+  width: 96.7%;
+  /* background-color: #67c6e3; */
+  background: url("../images/blue\ bg\ 4.jpg");
+  background-position: center;
+  background-repeat: none;
+  background-size: cover;
+  color: #fff;
+
+  padding: 0 1.4rem;
+  margin-left: 1.4rem;
+  margin-right: 1rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav img {
+  height: 6vh;
+  border-radius: 10%;
+}
+
+nav input {
+  padding: 8px;
+  border-radius: 20px;
+  width: 80%;
+  display: flex;
+  text-align: center;
+}
+
+nav h4 {
+  color: #dff5ff;
+}
+
+nav i {
+  font-size: 30px;
+  color: #fff;
+}
+
+.container_all {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1.4rem;
+  margin-top: 10px;
+}
+
+.container_1 h1 {
+  display: flex;
+  justify-content: center;
+  color: #dff5ff;
+}
+
+.container_1 {
+  height: 55vh;
+  width: 25%;
+  background: url("../images/blue\ bg\ 4.jpg");
+  background-position: center;
+  background-repeat: none;
+  background-size: cover;
+  color: #dff5ff;
+  /* background-color: #378ce7; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px;
+  gap: 8px;
+  font-size: 20px;
+  border-radius: 10%;
+}
+
+.container_1 i {
+  letter-spacing: 5px;
+  font-size: 15px;
+}
+
+.container_2 {
+  height: 50vh;
+  width: 47%;
+  /* background-color: #378ce7; */
+
+  background: url("../images/blue\ bg\ 4.jpg");
+  background-position: center;
+  background-repeat: none;
+  background-size: cover;
+
+  /* padding: 10px 10px;
+  border-radius: 2%; */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow-y: scroll;
+}
+
+.container_2r {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 5px;
+  border-radius: 2%;
+  gap: 3px;
+}
+
+.container_2_content {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+
+.container_2_content img {
+  height: 11vh;
+  border-radius: 5%;
+}
+
+.body {
+  background-color: #dff5ff;
+  color: #378ce7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  padding: 3px;
+  border-radius: 5%;
+  margin-top: 5px;
+}
+
+.btn_body {
+  background-color: #dff5ff;
+  color: #378ce7;
+  padding: 2px;
+  width: 40%;
+  border-radius: 10%;
+  margin-top: 5px;
+  font-size: 15px;
+  font-weight: bolder;
+}
+
+.container_3 {
+  height: 55vh;
+  width: 25%;
+  /* background-color: #378ce7; */
+  background: url("../images/blue\ bg\ 4.jpg");
+  background-position: center;
+  background-repeat: none;
+  background-size: cover;
+  border-radius: 10%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container_3 h1 {
+  color: #dff5ff;
+}
+
+.container_3 button {
+  background-color: #dff5ff;
+  color: #378ce7;
+  padding: 2px;
+  width: 30%;
+  border-radius: 10%;
+  margin-top: 5px;
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+.djack {
+  background-color: #dff5ff;
+  color: #378ce7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 7px;
+}
+
+footer {
+  height: 30vh;
+  width: 96.7%;
+  /* background-color: #5356ff; */
+  background: url("../images/blue\ bg\ 4.jpg");
+  background-position: center;
+  background-repeat: none;
+  background-size: cover;
+  padding: 0 1.4rem;
+  margin-top: 15px;
+
+  margin-left: 1.4rem;
+  margin-right: 1rem;
+  border-radius: 10px;
+}
+
+.footer1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+}
+
+.join {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #dff5ff;
+  height: 15vh;
+  width: 20%;
+}
+
+#fb i {
+  color: blue;
+}
+
+#u {
+  color: red;
+}
+
+#i {
+  color: red;
+}
+
+#t {
+  color: black;
+}
+
+.need {
+  color: #dff5ff;
+}
+
+.need p {
+  letter-spacing: 3px;
+  line-height: 25px;
+}
+
+.inter {
+  color: #dff5ff;
+}
+
+.inter p {
+  letter-spacing: 3px;
+  line-height: 25px;
+}
+
+.makem {
+  color: #dff5ff;
+}
+
+.makem p {
+  letter-spacing: 3px;
+  line-height: 25px;
+}
